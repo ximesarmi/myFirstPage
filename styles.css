@@ -66,16 +66,19 @@ body {
 .section .paragraph {
     font-size: 1.1em;
     margin-bottom: 20px;
+    color: #686868;
 }
 
 /* Article styling */
 .article .heading-3 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    color: #686868;
 }
 
 .article .paragraph {
     margin-bottom: 15px;
+    color: #686868;
 }
 
 /* Footer styling */
