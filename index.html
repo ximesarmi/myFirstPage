@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Xime's First Page</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <div class="wrapper">
-    <div class="header">
-      <div class="heading-1">Welcome to my very first intent of web page</div>
-      <div class="nav">
-        <div class="list">
-          <div class="menuItem"><a href="#">Home</a></div>
-          <div class="menuItem"><a href="#">About</a></div>
-          <div class="menuItem"><a href="#">Contact</a></div>
-        </div>
-      </div>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xime's First Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1 class="heading-1">Welcome to my very first intent of web page</h1>
+        <nav class="nav">
+          <ul class="list">
+            <li class="menuItem"><a href="#home">Home</a></li>
+            <li class="menuItem"><a href="#about">About</a></li>
+            <li class="menuItem"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="content">
+        <section class="section">
+          <h2 class="heading-2">Welcome to Xime's Learning Path</h2>
+          <p class="paragraph">
+            This page will be a description of my current path to learn how to readn and understand code.
+          </p>
+        </section>
+
+        <section>
+          <h2 class="heading-2">Recent Subjects</h2>
+          <article class="article">
+            <h3 class="heading-3">Git basic concepts</h3>
+            <p class="paragraph">
+              Git is a version control system that helps you track changes to your code.
+            </p>
+          </article>
+          <article class="article">
+            <h3 class="heading-3">Semantic HTML</h3>
+            <p class="paragraph">
+              Semantic === Meaning. Which is basically what HTML elements represent.
+            </p>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p class="paragraph">&copy; 2025 Xime's Learning Path</p>
+      </footer>
     </div>
-    <div class="section">
-      <div class="heading-2">Recent Subjects</div>
-      <div class="article">
-        <div class="heading-3">Git basic concepts</div>
-        <div class="paragraph">
-          Git is a version control system that helps you track changes to your code.
-        </div>
-      </div>
-      <div class="article">
-        <div class="heading-3">Semantic HTML</div>
-        <div class="paragraph">
-          Semantic === Meaning. Which is basically what HTML elements represent.
-        </div>
-      </div>
-    </div>
-    <div class="content">
-      <div class="section">
-        <div class="heading-2">Welcome to Xime's Learning Path</div>
-        <div class="paragraph">
-          This page will be a description of my current path to learn how to readn and understand code.
-        </div>
-      </div>
-    <div class="footer">
-      <div class="paragraph">&copy; 2025 Xime's Learning Path</div>
-    </div>
-  </div>
-</div>
-</body>
+  </body>
+
 </html>
