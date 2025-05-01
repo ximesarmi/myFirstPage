@@ -7,8 +7,12 @@ body {
     background-color: #fafafa;
 }
 
+section {
+    color: black;
+}
+
 .wrapper {
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -87,6 +91,8 @@ body {
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
+    position: fixed;
+    bottom: 0;
 }
 
 .footer .paragraph {
